@@ -1,0 +1,315 @@
+<div class="header" tabindex="-1">
+      <div class="container">
+
+        <h1>Yocket Documentation</h1>
+        <h4>
+          Components involved in development.
+        </h4>
+        </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <h2>Buttons</h2>
+  <div class="section">
+    <h4><i>Current Style</i></h4>
+    <button type="button" class="btn btn-default">.btn-default</button>
+    <button type="button" class="btn btn-primary">.btn-primary</button>
+    <button type="button" class="btn btn-danger">.btn-danger</button>
+    <button type="button" class="btn btn-warning">.btn-warning</button>
+    <button type="button" class="btn btn-info">.btn-info</button>
+    <button type="button" class="btn btn-success">.btn-success</button>
+  </div>
+  <div class="section">
+    <h4>Proposed Style</h4>
+    <button type="button" class="btn btn-new btn-default ">.btn-default</button>
+    <button type="button" class="btn btn-new btn-primary primary">.btn-primary</button>
+    <button type="button" class="btn btn-new btn-danger danger">.btn-danger</button>
+    <button type="button" class="btn btn-new btn-warning warning">.btn-warning</button>
+    <button type="button" class="btn btn-new btn-info info">.btn-info</button>
+    <button type="button" class="btn btn-new btn-success success ">.btn-success</button>
+  </div>
+
+  <div class="section">
+    <button type="button" class="btn btn-new-inverted btn-primary primary">.btn-primary</button>
+    <button type="button" class="btn btn-new-inverted btn-danger danger">.btn-danger</button>
+    <button type="button" class="btn btn-new-inverted btn-warning warning">.btn-warning</button>
+    <button type="button" class="btn btn-new-inverted btn-info info">.btn-info</button>
+    <button type="button" class="btn btn-new-inverted btn-success success ">.btn-success</button>
+  </div>
+
+  <div class="section">
+    <h4>Add-ons</h4>
+    <h5>Adding .rounded gives border</h5>
+    <button type="button" class="btn btn-new btn-primary primary rounded">.btn-primary</button>
+    <button type="button" class="btn btn-new btn-danger danger rounded">.btn-danger</button>
+    <button type="button" class="btn btn-new btn-info info rounded">.btn-danger</button>
+  </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <h2>Typography</h2>
+  <div class="section">
+    <h4>Current Style</h4>
+    <h1>This is Heading 1</h1>
+    <h2>This is Heading 2</h2>
+    <h3>This is Heading 3</h3>
+    <h4>This is Heading 4</h4>
+    <h5>This is Heading 5</h5>
+    <h4>We can finalise something from <a href="http://typespiration.com/">http://typespiration.com</a></h4>
+  </div>
+
+  <div class="section">
+    <p class="para">This is Paragraph (p) tag!</p>
+    <span>This is span tag!</span>
+  </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <h2>Card Templates</h2>
+      <h3>Horizontal Cards</h3>
+      <div class="section row">
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-1">
+            <span class="badge badge-danger">Trending</span>
+            <div class="img-card-1">
+              <a href="#">
+                <img src="https://pmcvariety.files.wordpress.com/2018/04/nyu.jpg?crop=0px%2C35px%2C1000px%2C563px&resize=1000%2C563" />
+              </a>
+            </div>
+              <div class="card-content-1">
+                  <h4 class="card-title-1 text-center">
+                      <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> 
+                        New York University
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    New York University (NYU) is a private research university spread throughout the world. Founded in 1831, NYU's historical campus is in Greenwich Village, New York City.</p>
+              </div>
+              <div class="card-read-more-1">
+                  <a href="#" class="btn btn-link btn-block">
+                      Read More
+                  </a>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div class="card-1">
+            <span class="badge badge-primary">Top</span>
+            <div class="img-card-1">
+              <a href="#">
+                <img src="https://www.utexas.edu/sites/default/files/styles/utexas_hero_photo_image/public/tower_hero_v2.jpg" />
+              </a>
+            </div>
+              <div class="card-content-1">
+                  <h4 class="card-title-1 text-center">
+                      <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> 
+                        University of Texas, Austin
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    The University of Texas at Austin is a public research university in Austin, Texas. It was founded in 1883 and is the flagship institution of the University of Texas System.[8] The University of Texas.
+                  </p>
+                </div>
+              <div class="card-read-more-1">
+                  <a href="#" class="btn btn-link btn-block">
+                      Read More
+                  </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="section row">
+      <h3>Vertical Cards</h3>
+        <div class="col-xs-12 col-sm-6">
+          <div class="card-1 card-horizontal row">
+            <div class="img-card-1 col-md-4">
+            <span class="badge badge-success">Sponsored</span>
+              <a href="#">
+                <img src="https://news.northeastern.edu/wp-content/uploads/2014/11/Fall_Slide_001.jpg" />
+              </a>
+            </div>
+              <div class="card-content-1 col-md-8">
+                  <h4 class="card-title-1 text-center">
+                      <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> 
+                        Northeastern University
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    Northeastern University is a private research university in Boston, Massachusetts, established in 1898 which is categorized as an R1 institution.
+                    <div class="card-read-more-1">
+                        <a href="#" class="btn btn-link btn-block">
+                            Read More
+                        </a>
+                    </div>
+              </div>
+          </div>
+          <div class="card-1 card-horizontal row">
+            <div class="img-card-1 col-md-4">
+            <span class="badge badge-info">New</span>
+              <a href="#">
+                <img src="https://news.uci.edu/wp-content/uploads/2018/09/studentcenter_170216_06a_sz-768x512.jpg" />
+              </a>
+            </div>
+              <div class="card-content-1 col-md-8">
+                  <h4 class="card-title-1 text-center">
+                      <a href="http://www.fostrap.com/2016/03/bootstrap-3-carousel-fade-effect.html"> 
+                        UC Irvine
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    The University of California, Irvine,is a public research university located in Irvine, California. It is one of the 10 campuses in the University of California system. 
+                    <div class="card-read-more-1">
+                        <a href="#" class="btn btn-link btn-block">
+                            Read More
+                        </a>
+                    </div>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<hr>
+
+<div class="container">
+    <h2>Accordion</h2>
+  <div class="col-md-8 col-sm-6 accordion accordion-success">
+    <h2>Accordion</h2>
+    
+    <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingOne-1">
+          <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne-1" aria-expanded="true" aria-controls="collapseOne-1">
+          Fun Fact #1
+        </a>
+      </h4>
+        </div>
+        <div id="collapseOne-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne-1">
+          <div class="panel-body">
+            he lion (Panthera leo) is a species in the family Felidae; it is a muscular, deep-chested cat with a short, rounded head, a reduced neck and round ears, and a hairy tuft at the end of its tail. The lion is sexually dimorphic; males are larger than females with a typical weight range of 150 to 250 kg (330 to 550 lb) for males and 120 to 182 kg (265 to 400 lb) for females. Male lions have a prominent mane, which is the most recognisable feature of the species. A lion pride consists of a few adult males, related females and cubs. Groups of female lions typically hunt together, preying mostly on large ungulates. The species is an apex and keystone predator, although they scavenge when opportunities occur. Some lions have been known to hunt humans, although the species typically does not.          
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingTwo-2">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo-2" aria-expanded="false" aria-controls="collapseTwo-2">
+          Fun Fact #2
+        </a>
+      </h4>
+        </div>
+        <div id="collapseTwo-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo-2">
+          <div class="panel-body">
+            Typically, the lion inhabits grasslands and savannas but is absent in dense forests. It is usually more diurnal than other big cats, but when persecuted it adapts to being active at night and at twilight. In the Pleistocene, the lion ranged throughout Eurasia, Africa and North America but today it has been reduced to fragmented populations in Sub-Saharan Africa and one critically endangered population in western India. It has been listed as Vulnerable on the IUCN Red List since 1996 because populations in African countries have declined by about 43% since the early 1990s. Lion populations are untenable outside designated protected areas. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes for concern.
+          </div>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="panel-heading" role="tab" id="headingThree-3">
+          <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree-3" aria-expanded="false" aria-controls="collapseThree-3">
+          Fun Fact #3
+        </a>
+      </h4>
+        </div>
+        <div id="collapseThree-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree-3">
+          <div class="panel-body">
+            One of the most widely recognised animal symbols in human culture, the lion has been extensively depicted in sculptures and paintings, on national flags, and in contemporary films and literature. Lions have been kept in menageries since the time of the Roman Empire and have been a key species sought for exhibition in zoological gardens across the world since the late 18th century. Cultural depictions of lions were prominent in the Upper Paleolithic period; carvings and paintings from the Lascaux and Chauvet Caves in France have been dated to 17,000 years ago, and depictions have occurred in virtually all ancient and medieval cultures that coincided with the lion's former and current ranges.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<hr>
+<div class="container">
+    <h2>Image Filters</h2>
+    <div class="section">
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive" src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Image">
+          <h4 class="text-center">Original</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive bg-grayscale" src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Image">
+          <h4 class="text-center">Grayscale (bg-grayscale)</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive bg-dark" src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Image">
+          <h4 class="text-center">Dark (bg-dark)</h4>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive bg-blur" src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Image">
+          <h4 class="text-center">Blur (bg-blur)</h4>
+        </div>
+    </div>    
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <h2>Labels</h2>
+    <div class="section">
+      <span class="label label-default">.label-default</span>
+      <span class="label label-info">.label-info</span>
+      <span class="label label-danger">.label-danger</span>
+      <span class="label label-primary">.label-primary</span>
+      <span class="label label-warning">.label-warning</span>
+      <span class="label label-success">.label-success</span>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <h2>Lightbox</h2>
+    <div class="section">
+      <h4>We can use the plugin Magnific Popup for implementing Lightbox and other Gallery related material.
+        <a href="https://dimsemenov.com/plugins/magnific-popup/">Link</a>
+      </h4>
+      <div class="popup-gallery">
+        <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
+        <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="section">
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container">
+  <div class="row">
+    <h2>Forms</h2>
+    <div class="section">
+      <form action="" method="POST" role="form">
+        <legend>Form title</legend>
+        <input type="text" class="form-control" id="" placeholder="Input field">
+        <div class="form-group">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+  </div>
+</div>
